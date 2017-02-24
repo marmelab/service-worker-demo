@@ -1,0 +1,11 @@
+{
+  "name": "serviceworker_demo",
+  "version": "1.0.0",
+  "description": "Service Worker demo",
+  "main": "index.js",
+  "author": "Alexis Janvier <contact@alexisjanvier.net>",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.9.0"
+  }
+}

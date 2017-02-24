@@ -1,0 +1,44 @@
+{
+  "albums": [
+    {
+      "id": 9218649,
+      "title": "II",
+      "artist": "La Jungle",
+      "label": "Black Basset Records",
+      "genre": "Rock",
+      "style": "Alternative Rock",
+      "format": "Vinyl, LP, Album, Stereo, 180Gr",
+      "cover": "lajungle"
+    },
+    {
+      "id": 8614813,
+      "title": "Black Terry Cat",
+      "artist": "Xenia Rubinos",
+      "label": "Anti-",
+      "genre": "Rock",
+      "style": "Indie Rock",
+      "format": "Vinyl, LP, Album",
+      "cover": "xeniaRubinos"
+    },
+    {
+      "id": 8991025,
+      "title": "Effets Spéciaux",
+      "artist": "Avec Pas D'Casque",
+      "label": "Grosse Boîte",
+      "genre": "Pop, Folk, World, & Country",
+      "style": "Chanson, Country",
+      "format": "Vinyl, LP, Album, Gatefold",
+      "cover": "avecpasdcasque"
+    },
+    {
+      "id": 8910865,
+      "title": "Golden Sings That Have Been Sung - Deep Cuts Edition",
+      "artist": "Ryley Walker",
+      "label": "Dead Oceans",
+      "genre": "Folk, World, & Country",
+      "style": "Folk",
+      "format": "2 × Vinyl, LP, Album, Limited Edition",
+      "cover": "ryleywalker"
+    }
+  ]
+}

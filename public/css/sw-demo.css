@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Shrikhand';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/Shrikhand.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+    font-family: 'Shrikhand', cursive;
+}
+.hidden {
+    display: none;
+}
+.item {
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 20px;
+}
+.red {
+    background-color: #c4215c;
+    border-color: #c4215c;
+}
+.green {
+    background-color: #888760;
+    border-color: #888760;
+}
+.header {
+	display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding:10px;
+}
+.header img {
+	width: 100px;
+}
+.header .title {
+    width: 70%;
+    text-align: center;
+}
+.header .title h1 {
+    font-size: 2.8rem;
+    font-weight: normal;
+    margin: 0;
+}
+.album {
+	display: flex;
+    flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding:10px;
+}
+.album img {
+    width: 150px;
+    margin-right: 3rem;
+}
+.album .information {
+    width: 70%;
+    text-align: left;
+}
+.album .information h3{
+    font-weight: normal;
+}
+.footer {
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding:10px;
+}
+.footer img {
+    width: 80px;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
