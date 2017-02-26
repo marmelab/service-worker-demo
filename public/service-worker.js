@@ -1,6 +1,6 @@
-var CACHE_NAME = 'sw-demo_1';
+const CACHE_NAME = 'sw-demo_1';
 
-var urlsToCache = [
+const urlsToCache = [
     '/index.html',
     '/playlist.html',
     '/css/normalize.css',
@@ -22,24 +22,24 @@ self.addEventListener('install', (event) => {
 });
 
 
-self.addEventListener('activate', function activator (event) {
+self.addEventListener('activate', (event) => {
     event.waitUntil(
         caches.keys()
-            .then(keys => {
-                return Promise.all(keys
-                    .filter(key => key !== CACHE_NAME)
-                    .map(key => caches.delete(key))
-                );
-            })
-            .then(() => self.clients.claim())
+        .then(keys => {
+            return Promise.all(keys
+                .filter(key => key !== CACHE_NAME)
+                .map(key => caches.delete(key))
+            );
+        })
+        .then(() => self.clients.claim())
     );
 });
 
-self.addEventListener('fetch', function(event) {
+self.addEventListener('fetch', (event) => {
     event.respondWith(
         fetch(event.request)
-            .catch(() => {
-                return caches.match(event.request);
-            })
+        .catch(() => {
+            return caches.match(event.request);
+        })
     );
 });
