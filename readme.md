@@ -1,7 +1,12 @@
-
-> ![alt text](http://3.121.36.10:3000/favicon.ico "Marmelab")    
-The code of this repository was written as a visual support for the talk [Embauchez un service worker](https://www.youtube.com/watch?v=fgUYYV6Vvbc).   
-**This code is not intended to be used on a project in production, and its maintenance is not guaranteed.**
+<table>
+        <tr>
+            <td><img width="30" src="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/svg/pencil.svg" alt="publication" /></td>
+            <td><strong>Archived Repository</strong><br />
+            The code of this repository was written to illustrate the blog post <a href="https://marmelab.com/blog/2017/03/21/decouvrir-les-service-workers.html">Découvrir les service workers</a><br />
+	    <strong>This code is not intended to be used in production, and is not maintained.</strong>
+	    </td>
+        </tr>
+</table>
 
 # Service worker demo
 
